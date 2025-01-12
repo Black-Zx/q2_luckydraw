@@ -1,0 +1,264 @@
+header {
+    position: static;
+}
+
+body {
+    background: #333;
+}
+body {
+    background-attachment: fixed;
+    background: url(../img/game/game-bg.jpg) center top no-repeat;
+    background-size: cover;
+
+    background: transparent;
+    color: #333;
+}
+.content-wrapper {
+    background: none;
+    max-width: unset;
+}
+
+.admin header{
+    padding:0px;
+}
+
+.admin .btn-download{
+    margin-left:10px;
+}
+
+a.nav-link {
+    padding: 0px;
+}
+
+.list-wrapper {
+    /*background: #444;*/
+    margin-bottom: 20px;
+}
+
+#login .btn.btn-submit {
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+}
+
+table th, 
+table td {
+    border: #333 solid 1px;
+    padding: 5px;
+}
+th {
+    background: #EEE;
+    padding: 10px;
+    font-weight: bold;
+}
+
+tr.ba-title {
+    background: #333;
+    color: white;
+}
+
+/*
+tr,
+table.dataTable tbody tr {
+    border-top: #555 solid 1px;
+}
+
+td {
+    padding: 5px;
+}
+
+tbody tr:nth-child(odd),
+table.dataTable tbody tr:nth-child(odd) {
+    background-color: #555;
+}
+tbody tr:nth-child(odd):hover,
+tbody tr:hover,
+table.dataTable tbody tr:hover {
+    background-color: #666 !important;
+}
+table.dataTable tbody tr {
+    background: transparent;
+}*/
+
+img.jersey-design {
+    max-width: 100px;
+}
+
+select.form-control,
+input[type="date"].form-control {
+    display: inline-block;
+    width: auto;
+}
+
+.form-group label {
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+table .btn.btn-primary {
+    font-size: 16px;
+    line-height: normal;
+    padding: 8px 15px;
+}
+
+.date-range-select .form-group {
+    display: inline-block;
+}
+
+.redeem-popup img {
+    max-width: 200px;
+    margin: 0px auto;
+}
+
+.redeem-popup .form-control {
+	border-bottom: black solid 1px;
+}
+
+.redeem-popup .form-control,
+.redeem-popup .form-control::-webkit-input-placeholder {
+    color: black;
+}
+/*
+table#user {
+    width: auto !important;
+    margin: 0px -10px;
+}*/
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate {
+    color: white;
+}
+
+.user-list.list-wrapper {
+    padding: 20px;
+}
+
+#user thead tr {
+    background: #333;
+}
+
+table.dataTable thead .sorting, 
+table.dataTable thead .sorting_asc, 
+table.dataTable thead .sorting_desc, 
+table.dataTable thead .sorting_asc_disabled, 
+table.dataTable thead .sorting_desc_disabled {
+    background-position: center left;
+}
+
+table tbody tr.danger {
+    background: #dc3545;
+}
+
+table .redeemed .btn.btn-primary {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.prize-list.list-wrapper {
+    margin-top: 0px;
+}
+
+table#prize input[type="text"] {
+    text-align: right;
+    text-align: center;
+}
+
+.submit-wrapper {
+    padding-top: 0px;
+}
+
+.submit-wrapper * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.submit-wrapper p {
+    padding: 0px 20px;
+}
+
+.rate-display .warn {
+    display: none;
+    background: white;
+    color: #a50034;
+    padding: 0px 10px;
+}
+
+.rate-display.warning .warn {
+    display: block;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: white !important;
+}
+
+.prize-list {
+    padding: 20px;
+}
+
+.reset-prize {
+    border: white solid 1px;
+    /*padding-top: 10px;*/
+    padding-bottom: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.reset-prize h4 {
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    background: white;
+    color: #ad9064;
+}
+
+.reset-prize .col-4 {
+    padding: 0px 5px;
+}
+
+.reset-prize a.btn {
+    padding: 10px 0px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 420px) {
+    table.dataTable tbody th, 
+    table.dataTable tbody td {
+        /*padding: 5px;*/
+        /*font-size: 14px;*/
+    }
+
+    table .btn.btn-primary {
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    table#prize input[type="text"] {
+        width: 80px;
+    }
+
+    .table-wrapper {
+        overflow: scroll;
+    }
+
+    img.jersey-design {
+        max-width: 60px;
+    }
+
+    .text-right .date-range-select {
+        text-align: left;
+    }
+
+    .form-group label {
+        padding-left: 0px;
+    }
+
+    .list-wrapper {
+        overflow-x: scroll;
+    }
+}

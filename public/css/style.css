@@ -1,0 +1,339 @@
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    /*background-color: #000;
+    background-attachment: fixed;
+    background: url(../img/home/bg.jpg) center top no-repeat;
+    background-size: cover;
+    font-weight: 500;*/
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+::selection {
+    background-color: rgba(133, 29, 25, 0.342);
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+    -webkit-user-drag: none;
+    -html-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+svg {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration: none;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+button {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+h4,
+p {
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    /* height: 100%; */
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+    min-height: 100%;
+    /*height: 100%;*/
+    padding-top: 70px;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+}
+
+footer,
+footer a {
+    /*color: #a6a6a6;*/
+}
+footer a {
+    margin: 0px 20px;
+}
+
+header {
+}
+
+/* ========== SUBMISSION ========== */
+.stage_matches_col {
+    /* border-right: 1px solid lightgray; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 4px;
+}
+/* ========== END SUBMISSION ========== */
+
+/* ========== HOEMPAGE ========== */
+
+/* ========== end HOMEPAGE ========== */
+
+/* ========== LANGUAGE SELECT PAGE =========== */
+
+.language .welcome-wrapper {
+    padding-bottom: 30px;
+}
+
+h4.title {
+    font-size: 18px;
+}
+p.desc {
+    font-size: 16px;
+}
+
+.content-wrapper.has-btn {
+    /* padding-bottom: 160px; */
+    position: relative;
+}
+
+/* .btn {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'regularFont';
+    padding: 15px;
+    width: 100%;
+    border: none;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+} */
+.btn.btn-primary,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active {
+    background: #a60000;
+}
+.btn.btn-secondary,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active {
+    background: #959181;
+}
+
+.btn.btn-primary.disabled {
+    opacity: 1;
+}
+.btn-primary.disabled {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-bottom {
+    width: 400px;
+    max-width: 100%;
+    margin: 0px;
+
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.btn-bottom.extra-padding {
+    padding: 0px 7px;
+}
+
+.select2-container span.select2-selection--single {
+    height: 58px;
+    border: 1px solid #ced4da;
+}
+
+.select2-container--default
+    .select2-selection--single
+    span.select2-selection__arrow {
+    height: 58px;
+    width: 40px;
+}
+
+.select2-container--default
+    .select2-selection--single
+    span.select2-selection__rendered {
+    text-align: left;
+    padding: 10px 20px;
+    line-height: 38px;
+}
+
+.select2-dropdown {
+    margin-top: 5px;
+
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+    border-radius: 8px !important;
+}
+
+ul#select2-language_select-results li {
+    border-top: rgba(112, 112, 112, 0.2) solid 1px;
+    padding: 10px 20px;
+}
+
+.select2-container--default.select2-container--open.select2-container--below
+    span.select2-selection--single,
+.select2-container--default.select2-container--open.select2-container--below
+    span.select2-selection--multiple {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.select2-container--open span.select2-dropdown--below {
+    border: none;
+}
+
+span.select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow
+    b {
+    width: 14px;
+    height: 9px;
+    background: url("../img/icon-arrow-down.svg") left top no-repeat;
+    border: none;
+    margin-left: -7px;
+    margin-top: -5px;
+}
+span.select2-container--default.select2-container--open
+    .select2-selection--single
+    .select2-selection__arrow
+    b {
+    -webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+/* ========== end LANGUAGE SELECT PAGE =========== */
+
+/* ========== CONFIRMATION PAGE ========== */
+
+/* ========== end CONFIRMATION PAGE ========== */
+
+/* ========== QUIZ PAGE ========== */
+
+/* ========== end QUIZ PAGE ========== */
+
+/* ========== thank you PAGE ========== */
+
+/* ========== end thank you PAGE ========== */
+
+/* ========== RESPONSIVE ========== */
+
+@media (max-width: 1280px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1023px) {
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 536px) {
+}
+
+@media (max-width: 575px) {
+}
+
+@media (min-width: 426px) and (max-width: 505px) {
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 767px),
+    (device-width: 414px) and (device-height: 896px),
+    (device-width: 896px) and (device-height: 414px),
+    (device-width: 375px) and (device-height: 812px),
+    (device-width: 812px) and (device-height: 375px) {
+}
+
+@media (max-width: 520px),
+    (device-width: 414px) and (device-height: 896px) and (orientation: portrait),
+    (device-width: 375px) and (device-height: 812px) and (orientation: portrait) {
+}
